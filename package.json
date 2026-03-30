@@ -1,0 +1,41 @@
+{
+  "name": "thebabalola-stacks-helpers-contracts",
+  "version": "1.0.0",
+  "description": "Contract read/write wrappers and ABI helpers for Stacks L2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@stacks/transactions": "^7.2.0",
+    "@stacks/network": "^7.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "l2",
+    "blockchain",
+    "contracts"
+  ],
+  "author": "thebabalola",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StacksTrench/stacks-helpers-contracts",
+    "directory": "packages/contracts"
+  },
+  "bugs": {
+    "url": "https://github.com/StacksTrench/stacks-helpers-contracts/issues"
+  },
+  "homepage": "https://github.com/StacksTrench/stacks-helpers-contracts#readme"
+}

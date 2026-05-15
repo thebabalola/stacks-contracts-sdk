@@ -1,5 +1,5 @@
 import { callContract } from "./write";
-import type { ContractCallOptions, BatchResult } from "stacks-types-sdk";
+import type { ContractCallOptions, BatchResult } from "cest-types-sdk";
 
 export async function batchCall(
   calls: ContractCallOptions[],

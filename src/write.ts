@@ -4,7 +4,7 @@ import {
   PostConditionMode,
   type ClarityValue,
 } from "@stacks/transactions";
-import type { ContractCallOptions, BatchResult } from "richiey1-stacks-helpers-types";
+import type { ContractCallOptions, BatchResult } from "stacks-types-sdk";
 
 export async function callContract(
   options: ContractCallOptions

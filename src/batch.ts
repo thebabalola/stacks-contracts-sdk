@@ -1,5 +1,5 @@
 import { callContract } from "./write";
-import type { ContractCallOptions, BatchResult } from "richiey1-stacks-helpers-types";
+import type { ContractCallOptions, BatchResult } from "stacks-types-sdk";
 
 export async function batchCall(
   calls: ContractCallOptions[],
